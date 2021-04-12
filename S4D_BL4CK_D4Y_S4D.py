@@ -7,14 +7,14 @@ def chk():
   id = "-".join(uuid)
   print("\x1b[37;1mYour ID : "+id)
   try:
-    httpCaht = requests.get("https://raw.githubusercontent.com/4REZ/Active.txt/main/Active.txt").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/BL4CK-d4y/S4D_BL4CK_D4Y_S4D.py/main/ACTIVE.txt").text
     if id in httpCaht:
       print("\033[92mYOUR ID IS ACTIVE.........")
       msg = str(os.geteuid())
       time.sleep(1)
       pass
     else:
-      print("\x1b[91mBarezm Id kat active nya Tkaya bo Active krdn nama bnera bo telegram @ravo_m.......")
+      print("\x1b[91mBarezm ID ACTIVE nia tkaya ID ACTIVE bak bo chuna zhurawa bo ID ACTIVE krdn nama bnera @BL4CK_007_D4Y.......")
       time.sleep(1)
       sys.exit()
   except:
@@ -150,11 +150,12 @@ logo2 = """
 \033[97mAuther-BL4CK D4Y
 Telegram-@BL4CK_007_D4Y
 Telegram chanell-@BL4CK007D4Y
+Snapchat  : paywand499
 Instagram : ue3ex
 NRX: 5$
        """
 CorrectUsername = 'BL4CK_D4Y'
-CorrectPassword = 'ig@ue3ex'
+CorrectPassword = 'SC@paywand499'
 os.system('clear')
 print logo2
 loop = 'true'
